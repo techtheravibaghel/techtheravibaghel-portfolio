@@ -1,0 +1,15 @@
+:root {
+  --color-background: #ffffff;
+  --color-primary: #ae34cf;
+
+  --color-card-text: #111827;
+  --color-card-subtext: #7a5c2d;
+}
+
+.dark {
+  --color-background: #1f2937;
+  --color-primary: #6366f1;
+
+  --color-card-text: #ffffff;
+  --color-card-subtext: #9ca3af;
+}

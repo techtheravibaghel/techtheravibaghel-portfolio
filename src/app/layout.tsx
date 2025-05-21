@@ -1,5 +1,8 @@
 import type { Metadata } from "next";
+import "@/styles/theme.css";
 import "@/styles/globals.css";
+import Header from "@/components/Header/page";
+import Footer from "@/components/Footer/page";
 
 export const metadata: Metadata = {
   title: "techtheravibaghel | Portfolio",
@@ -13,7 +16,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className="h-screen overflow-hidden">
+        <div className="flex flex-col h-full">
+          <Header />
+          <main className="flex-1 overflow-auto">{children}</main>
+          <Footer />
+        </div>
+      </body>
     </html>
   );
 }
