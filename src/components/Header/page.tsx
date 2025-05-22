@@ -8,7 +8,7 @@ export default function Header() {
   const { theme, toggleTheme } = useDarkMode();
 
   return (
-    <header className="flex items-center justify-between p-4 bg-[var(--color-background)]">
+    <header className="flex items-center justify-between p-4 bg-[var(--color-background)] custom-container">
       <div className="flex items-center space-x-2 md:space-x-0">
         <Logo
           size={40}
@@ -17,7 +17,7 @@ export default function Header() {
         <TextLogo
           size={16}
           gradient
-          className="font-[var(--font-mono)] w-32 sm:w-48 md:w-64"
+          className="font-[var(--font-mono)] w-32 sm:w-48 md:w-64 hidden sm:block"
         />
       </div>
 

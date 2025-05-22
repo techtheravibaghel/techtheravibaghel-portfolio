@@ -5,7 +5,7 @@ import { GiFountainPen } from "react-icons/gi";
 export default function Home() {
   const { theme } = useDarkMode();
   return (
-    <div className="h-full flex items-center justify-center gap-5 flex-col bg-[var(--color-background)]">
+    <div className="h-full flex items-center justify-center gap-5 flex-col bg-[var(--color-background)] custom-container">
       <h1 className="text-4xl text-[var(--color-card-text)]">
         Welcome to {theme} mode!
       </h1>

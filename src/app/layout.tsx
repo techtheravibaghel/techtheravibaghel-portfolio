@@ -16,8 +16,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="h-screen overflow-hidden">
-        <div className="flex flex-col h-full">
+      <body className="h-screen overflow-hidden  ">
+        <div className="flex flex-col h-full bg-[var(--color-background)]">
           <Header />
           <main className="flex-1 overflow-auto">{children}</main>
           <Footer />
