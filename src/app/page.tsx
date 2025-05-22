@@ -13,20 +13,7 @@ export default function Home() {
       <div className="bg-[var(--color-background)]  rounded-lg px-6 py-8 ring shadow-xl ring-[var(--color-primary)] w-[40%]">
         <div>
           <span className="inline-flex items-center justify-center rounded-md bg-[var(--color-primary)] p-2 shadow-lg">
-            {/* <svg
-              className="h-6 w-6 stroke-white"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M5 13l4 4L19 7"
-              />
-            </svg> */}
-            <GiFountainPen size={20} className="text-[var(--color-card-text)]"/>
+            <GiFountainPen size={20} className="text-xl sm:text-2xl md:text-3xl text-[var(--color-card-text)]"/>
           </span>
         </div>
         <h3 className="mt-5 text-base font-medium tracking-tight text-[var(--color-card-text)]">

@@ -1,6 +1,20 @@
 @import "tailwindcss";
 
 @theme {
+  --color-*: initial;
   --color-lime-*: initial;
-  --color-fuchsia-*: initial;
+  --color-fuchsia-*: initial; 
+}
+
+@layer components {
+  .label {
+    display: inline-block;
+    background-color: var(--color-primary);
+    color: var(--color-background);
+    font-size: var(--text-sm);
+    padding: var(--spacing-1) var(--spacing-2);
+    border-radius: var(--rounded-md);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
 }
